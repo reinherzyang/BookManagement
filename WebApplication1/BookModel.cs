@@ -16,6 +16,8 @@ namespace WebApplication1
             public string Category { get; set; }//類別
             public decimal Price { get; set; }//價格
             public DateTime ReleaseDate { get; set; }//上架日期
+            public int Appear { get; set; }//狀態 ex:有庫存、沒庫存、下架、刪除
+
         }
 
         public class BookQuery
